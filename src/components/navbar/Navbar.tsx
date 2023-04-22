@@ -2,6 +2,7 @@ import { AppBar, Tab, IconButton, InputBase, Paper, Tabs, Toolbar, Typography } 
 import SearchIcon from '@mui/icons-material/Search';
 import { useState } from "react";
 
+
 function Navbar() {
   const [value, setValue] = useState();
 
@@ -9,7 +10,7 @@ function Navbar() {
     <>
       <AppBar
         sx={{
-          backgroundColor: '#FEF279',
+          backgroundColor: 'primary',
         }}
       >
         <Toolbar>
@@ -26,7 +27,7 @@ function Navbar() {
           </Tabs>
           <Paper
             component="form"
-            sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 200 }}
+            sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 200, marginLeft:'auto' }}            
           >
             <InputBase
               sx={{ ml: 1, flex: 1 }}
