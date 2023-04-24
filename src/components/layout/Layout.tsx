@@ -1,4 +1,4 @@
-import { yellow, red, green } from '@/components/colors/Colors';
+import { yellow, red, green, gray } from '@/components/colors/Colors';
 import { FC, ReactNode } from "react";
 import Footer from "../footer/Footer"
 import Navbar from "../navbar/Navbar"
@@ -18,7 +18,7 @@ const theme = createTheme({
       main: green[50],
     },
     warning: {
-      main: green[50],
+      main: gray[50],
     },
   },
 });
