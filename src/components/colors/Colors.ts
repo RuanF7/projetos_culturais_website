@@ -11,3 +11,8 @@ export const red = {
 export const green = {
   50: '#50DFBA',
 }
+
+export const gray = {
+  50: '#1C1C1C',
+}
+

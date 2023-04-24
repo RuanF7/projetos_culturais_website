@@ -10,20 +10,25 @@ function Navbar() {
     <>
       <AppBar
         sx={{
-          backgroundColor: 'primary',
+          background: 'primary',
         }}
       >
         <Toolbar>
-          <Tabs textColor="inherit"
+          <Tabs 
+            textColor="secondary"
             value={value}
             onChange={(e, value) => setValue(value)}
             indicatorColor="secondary"
+            sx={{ 
+              '& button': {borderRadius: 2},
+              '& button:hover': { backgroundColor: 'secondary' },
+              '& button:active': { backgroundColor: 'warning' }
+          }}
           >
-            <Tab sx={{ color: '#000000' }} label='Home' />
-            <Tab sx={{ color: '#000000' }} label='Gravataí: entre anjos e Gravatás' />
-            <Tab sx={{ color: '#000000' }} label='CECI: a menina que podia voar' />
-            <Tab sx={{ color: '#000000' }}
-              label='SPMG: uma história de luta' />
+            <Tab label='Home' />
+            <Tab label='Gravataí: entre anjos e Gravatás' />
+            <Tab label='CECI: a menina que podia voar' />
+            <Tab label='SPMG: uma história de luta' />
           </Tabs>
           <Paper
             component="form"
