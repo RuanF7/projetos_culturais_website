@@ -5,7 +5,6 @@ import Navbar from "../navbar/Navbar"
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Head from 'next/head';
 
-
 const theme = createTheme({
   palette: {
     primary: {
@@ -19,10 +18,10 @@ const theme = createTheme({
     },
     warning: {
       main: gray[50],
-      light: gray[100],      
+      light: gray[100],
     },
-  },
-  
+  }, 
+
 });
 
 interface LayoutProps {
