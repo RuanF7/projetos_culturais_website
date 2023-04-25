@@ -1,12 +1,11 @@
-import { AppBar, Tab, IconButton, InputBase, Paper, Tabs, Toolbar, Typography } from "@mui/material"
+import { AppBar, Tab, IconButton, InputBase, Paper, Tabs, Toolbar, Fade } from "@mui/material"
 import SearchIcon from '@mui/icons-material/Search';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { useState } from "react";
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import Fade from '@mui/material/Fade';
 import React from "react";
-import NavbarDropDown from "./NavbarDropDown";
+import Link from "next/link";
 
 
 function Navbar() {
@@ -44,8 +43,6 @@ function Navbar() {
   const handleClose2 = () => {
     setAnchorEl2(null);
   };
-
-  
 
   return (
     <>
@@ -86,23 +83,37 @@ function Navbar() {
               onClose={handleClose}
               TransitionComponent={Fade}
               sx={
-                { mt: "1px", "& .MuiMenu-paper": 
-                  { backgroundColor: "secondary.main", }, 
+                {
+                  mt: "1px", "& .MuiMenu-paper":
+                    { backgroundColor: "secondary.main" },
                 }
               }
-              
             >
-              <MenuItem onClick={handleClose}>As Irmãs TM</MenuItem>
-              <MenuItem onClick={handleClose}>Contato</MenuItem>
+              <Link href="/aboutUs/AboutUs"
+                style={{
+                  textDecoration: 'none',
+                  color: 'white',
+                }}
+              >
+                <MenuItem onClick={handleClose}>As Irmãs TM</MenuItem>
+              </Link>
+              <Link href="/contact/Contact"
+                style={{
+                  textDecoration: 'none',
+                  color: 'white',
+                }}
+              >
+                <MenuItem onClick={handleClose} href="/contact/Contact">Contato</MenuItem>
+              </Link>
             </Menu>
 
             <Tab label='Gravataí: entre anjos e Gravatás' href='/gravatai/Gravatai' />
             <IconButton color="warning" aria-label="dropdown"
-            id="fade-button"
-            aria-controls={open1 ? 'fade-menu' : undefined}
-            aria-haspopup="true"
-            aria-expanded={open1 ? 'true' : undefined}
-            onClick={handleClick1}
+              id="fade-button"
+              aria-controls={open1 ? 'fade-menu' : undefined}
+              aria-haspopup="true"
+              aria-expanded={open1 ? 'true' : undefined}
+              onClick={handleClick1}
             >
               <ArrowDropDownIcon />
             </IconButton>
@@ -116,25 +127,39 @@ function Navbar() {
               onClose={handleClose1}
               TransitionComponent={Fade}
               sx={
-                { mt: "1px", "& .MuiMenu-paper": 
-                  { backgroundColor: "secondary.main", }, 
+                {
+                  mt: "1px", "& .MuiMenu-paper":
+                    { backgroundColor: "secondary.main", color: 'warning.light' },
                 }
               }
-              
             >
-              <MenuItem onClick={handleClose1}>Vídeos e Entrevistas</MenuItem>
-              <MenuItem onClick={handleClose1}>Lugares de Gravataí</MenuItem>
+              <Link href="/videosEEntrevistas/VideosEEntrevistas"
+                style={{
+                  textDecoration: 'none',
+                  color: 'white',
+                }}
+              >
+                <MenuItem onClick={handleClose1}>Vídeos e Entrevistas</MenuItem>
+              </Link>
+              <Link href="/lugares/Lugares"
+                style={{
+                  textDecoration: 'none',
+                  color: 'white',
+                }}
+              >
+                <MenuItem onClick={handleClose1}>Lugares de Gravataí</MenuItem>
+              </Link>
             </Menu>
 
             <Tab label='CECI: a menina que podia voar' href='/ceci/Ceci' />
 
             <Tab label='SPMG: uma história de luta' href='/spmg/Spmg' />
             <IconButton color="warning" aria-label="dropdown"
-            id="fade-button"
-            aria-controls={open2 ? 'fade-menu' : undefined}
-            aria-haspopup="true"
-            aria-expanded={open2 ? 'true' : undefined}
-            onClick={handleClick2}
+              id="fade-button"
+              aria-controls={open2 ? 'fade-menu' : undefined}
+              aria-haspopup="true"
+              aria-expanded={open2 ? 'true' : undefined}
+              onClick={handleClick2}
             >
               <ArrowDropDownIcon />
             </IconButton>
@@ -148,19 +173,68 @@ function Navbar() {
               onClose={handleClose2}
               TransitionComponent={Fade}
               sx={
-                { mt: "1px", "& .MuiMenu-paper": 
-                  { backgroundColor: "secondary.main", }, 
+                {
+                  mt: "1px", "& .MuiMenu-paper":
+                    { backgroundColor: "secondary.main", color: 'warning.light' },
                 }
               }
-              
             >
-              <MenuItem onClick={handleClose2}>Linha do Tempo SPMG</MenuItem>
-              <MenuItem onClick={handleClose2}>História Impressa</MenuItem>
-              <MenuItem onClick={handleClose2}>Campanhas Sindicais</MenuItem>
-              <MenuItem onClick={handleClose2}>Fotos</MenuItem>
-              <MenuItem onClick={handleClose2}>Depoimentos</MenuItem>
-              <MenuItem onClick={handleClose2}>Postagens</MenuItem>
-              <MenuItem onClick={handleClose2}>E a Luta Continua...</MenuItem>
+              <Link href="/linhaDoTempo/LinhaDoTempo"
+                style={{
+                  textDecoration: 'none',
+                  color: 'white',
+                }}
+              >
+                <MenuItem onClick={handleClose2}>Linha do Tempo SPMG</MenuItem>
+              </Link>
+              <Link href="/historia/Historia"
+                style={{
+                  textDecoration: 'none',
+                  color: 'white',
+                }}
+              >
+                <MenuItem onClick={handleClose2}>História Impressa</MenuItem>
+              </Link>
+              <Link href="/campanhas/Campanhas"
+                style={{
+                  textDecoration: 'none',
+                  color: 'white',
+                }}
+              >
+                <MenuItem onClick={handleClose2}>Campanhas Sindicais</MenuItem>
+              </Link>
+              <Link href="/fotos/Fotos"
+                style={{
+                  textDecoration: 'none',
+                  color: 'white',
+                }}
+              >
+                <MenuItem onClick={handleClose2}>Fotos</MenuItem>
+              </Link>
+              <Link href="/depoimentos/Depoimentos"
+                style={{
+                  textDecoration: 'none',
+                  color: 'white',
+                }}
+              >
+                <MenuItem onClick={handleClose2}>Depoimentos</MenuItem>
+              </Link>
+              <Link href="/postagens/Postagens"
+                style={{
+                  textDecoration: 'none',
+                  color: 'white',
+                }}
+              >
+                <MenuItem onClick={handleClose2}>Postagens</MenuItem>
+              </Link>
+              <Link href="/luta/Luta"
+                style={{
+                  textDecoration: 'none',
+                  color: 'white',
+                }}
+              >
+                <MenuItem onClick={handleClose2}>E a Luta Continua...</MenuItem>
+              </Link>
             </Menu>
           </Tabs>
 
@@ -178,7 +252,6 @@ function Navbar() {
             </IconButton>
           </Paper>
         </Toolbar>
-
       </AppBar>
     </>
   )
