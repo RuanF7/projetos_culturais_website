@@ -33,6 +33,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
     <>
       <ThemeProvider theme={theme}>
         <Head>
+          <link rel='shortcut icon' href='/favicon-16x16.png' />
           <title>Projetos Culturais Irmãs TM</title>
         </Head>
         <Navbar />
