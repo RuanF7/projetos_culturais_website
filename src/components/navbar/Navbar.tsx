@@ -25,10 +25,10 @@ function Navbar() {
               '& button:active': { backgroundColor: 'warning' }
           }}
           >
-            <Tab label='Home' href='/Homepage' />
-            <Tab label='Gravataí: entre anjos e Gravatás' />
-            <Tab label='CECI: a menina que podia voar' />
-            <Tab label='SPMG: uma história de luta' />
+            <Tab label='Home' href='/home/Homepage' />
+            <Tab label='Gravataí: entre anjos e Gravatás' href='/gravatai/Gravatai' />
+            <Tab label='CECI: a menina que podia voar' href='/ceci/Ceci' />
+            <Tab label='SPMG: uma história de luta' href='/spmg/Spmg' />
           </Tabs>
           <Paper
             component="form"
