@@ -21,6 +21,7 @@ const theme = createTheme({
       main: gray[50],
     },
   },
+  
 });
 
 interface LayoutProps {
