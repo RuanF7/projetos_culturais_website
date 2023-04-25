@@ -25,7 +25,7 @@ function Navbar() {
               '& button:active': { backgroundColor: 'warning' }
           }}
           >
-            <Tab label='Home' />
+            <Tab label='Home' href='/Homepage' />
             <Tab label='Gravataí: entre anjos e Gravatás' />
             <Tab label='CECI: a menina que podia voar' />
             <Tab label='SPMG: uma história de luta' />
