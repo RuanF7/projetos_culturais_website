@@ -89,7 +89,7 @@ function Navbar() {
                 }
               }
             >
-              <Link href="/aboutUs/AboutUs"
+              <Link href="/home/aboutUs/AboutUs"
                 style={{
                   textDecoration: 'none',
                   color: 'white',
@@ -97,7 +97,7 @@ function Navbar() {
               >
                 <MenuItem onClick={handleClose}>As Irmãs TM</MenuItem>
               </Link>
-              <Link href="/contact/Contact"
+              <Link href="/home/contact/Contact"
                 style={{
                   textDecoration: 'none',
                   color: 'white',
@@ -133,7 +133,7 @@ function Navbar() {
                 }
               }
             >
-              <Link href="/videosEEntrevistas/VideosEEntrevistas"
+              <Link href="/gravatai/videosEEntrevistas/VideosEEntrevistas"
                 style={{
                   textDecoration: 'none',
                   color: 'white',
@@ -141,7 +141,7 @@ function Navbar() {
               >
                 <MenuItem onClick={handleClose1}>Vídeos e Entrevistas</MenuItem>
               </Link>
-              <Link href="/lugares/Lugares"
+              <Link href="/gravatai/lugares/Lugares"
                 style={{
                   textDecoration: 'none',
                   color: 'white',
@@ -179,7 +179,7 @@ function Navbar() {
                 }
               }
             >
-              <Link href="/linhaDoTempo/LinhaDoTempo"
+              <Link href="/spmg/linhaDoTempo/LinhaDoTempo"
                 style={{
                   textDecoration: 'none',
                   color: 'white',
@@ -187,7 +187,7 @@ function Navbar() {
               >
                 <MenuItem onClick={handleClose2}>Linha do Tempo SPMG</MenuItem>
               </Link>
-              <Link href="/historia/Historia"
+              <Link href="/spmg/historia/Historia"
                 style={{
                   textDecoration: 'none',
                   color: 'white',
@@ -195,7 +195,7 @@ function Navbar() {
               >
                 <MenuItem onClick={handleClose2}>História Impressa</MenuItem>
               </Link>
-              <Link href="/campanhas/Campanhas"
+              <Link href="/spmg/campanhas/Campanhas"
                 style={{
                   textDecoration: 'none',
                   color: 'white',
@@ -203,7 +203,7 @@ function Navbar() {
               >
                 <MenuItem onClick={handleClose2}>Campanhas Sindicais</MenuItem>
               </Link>
-              <Link href="/fotos/Fotos"
+              <Link href="/spmg/fotos/Fotos"
                 style={{
                   textDecoration: 'none',
                   color: 'white',
@@ -211,7 +211,7 @@ function Navbar() {
               >
                 <MenuItem onClick={handleClose2}>Fotos</MenuItem>
               </Link>
-              <Link href="/depoimentos/Depoimentos"
+              <Link href="/spmg/depoimentos/Depoimentos"
                 style={{
                   textDecoration: 'none',
                   color: 'white',
@@ -219,7 +219,7 @@ function Navbar() {
               >
                 <MenuItem onClick={handleClose2}>Depoimentos</MenuItem>
               </Link>
-              <Link href="/postagens/Postagens"
+              <Link href="/spmg/postagens/Postagens"
                 style={{
                   textDecoration: 'none',
                   color: 'white',
@@ -227,7 +227,7 @@ function Navbar() {
               >
                 <MenuItem onClick={handleClose2}>Postagens</MenuItem>
               </Link>
-              <Link href="/luta/Luta"
+              <Link href="/spmg/luta/Luta"
                 style={{
                   textDecoration: 'none',
                   color: 'white',
