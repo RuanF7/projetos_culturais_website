@@ -21,9 +21,7 @@ const AboutUs = () => {
           sx={{
             display: 'flex',
             justifyContent: 'center',
-            padding: 3,
-                       
-            
+            padding: 3,    
           }}
         >
           <Box>
@@ -78,7 +76,7 @@ const AboutUs = () => {
             Em 2019 foi uma das fundadoras da Revista de Arte Abacaxi com Morango, onde diversos artistas se unem em uma publicação para tratar de temas como preconceito, feminismo, homofobia, etc.
           </Typography>
         </Box>
-        <Box sx={{ borderBottom: 2, borderColor: 'warnin.main', width: 700, display: 'flex', alignSelf: 'center', marginTop: 15}}></Box>        
+        <Box sx={{ borderBottom: 2, borderColor: 'warning.main', width: 700, display: 'flex', alignSelf: 'center', marginTop: 15}}></Box>        
 
         <Box
           sx={{
