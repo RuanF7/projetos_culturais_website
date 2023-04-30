@@ -2,16 +2,19 @@ import { Avatar, Box, Typography } from '@mui/material'
 import React from 'react'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import SchoolIcon from '@mui/icons-material/School';
-import AutoStoriesIcon from '@mui/icons-material/AutoStories';
+import CardLogo from '@/components/cardLogo/CardLogo';
+import BackToTopButton from '@/components/backToTopButton/BackToTopButton';
 
 const AboutUs = () => {
   return (
     <>
+      <CardLogo/>
       <Box
         sx={{
           display: 'flex',
           justifyContent: 'center',
           flexDirection: 'column',
+          marginLeft: 10,
         }}
       >
         <Box
@@ -19,6 +22,8 @@ const AboutUs = () => {
             display: 'flex',
             justifyContent: 'center',
             padding: 3,
+                       
+            
           }}
         >
           <Box>
@@ -56,7 +61,6 @@ const AboutUs = () => {
               </a>
             </Box>
           </Box>
-
           <Typography
             sx={{
               fontSize: 20,
@@ -74,6 +78,8 @@ const AboutUs = () => {
             Em 2019 foi uma das fundadoras da Revista de Arte Abacaxi com Morango, onde diversos artistas se unem em uma publicação para tratar de temas como preconceito, feminismo, homofobia, etc.
           </Typography>
         </Box>
+        <Box sx={{ borderBottom: 2, borderColor: 'warnin.main', width: 700, display: 'flex', alignSelf: 'center', marginTop: 15}}></Box>        
+
         <Box
           sx={{
             display: 'flex',
@@ -87,7 +93,7 @@ const AboutUs = () => {
               display: 'flex',
               fontFamily: 'HeyAugust',
               justifyContent: 'center',
-              paddingTop: 16,
+              paddingTop: 18,
               width: 700,
               color: 'warning.main'
             }}
@@ -147,6 +153,7 @@ const AboutUs = () => {
             </Box>
           </Box>
         </Box>
+        <BackToTopButton/>
       </Box>
     </>
   )
