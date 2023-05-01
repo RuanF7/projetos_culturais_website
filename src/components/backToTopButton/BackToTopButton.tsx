@@ -33,7 +33,8 @@ function BackToTopButton() {
           right: 10,
           height: 30,
           width: 30,
-          color: 'warning.main'                   
+          color: 'warning.main',
+          cursor: 'pointer',                   
         }}
         onClick={scrollUp}
         />        

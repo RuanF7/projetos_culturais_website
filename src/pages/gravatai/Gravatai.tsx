@@ -18,8 +18,7 @@ function Gravatai() {
           justifyContent: 'center',
           flexDirection: 'column',
           marginLeft: 10,
-        }}
-      >
+        }}>
         <Box
           sx={{
             display: 'flex',
@@ -27,8 +26,7 @@ function Gravatai() {
             justifyContent: 'center',
             alignItems: 'center',
             padding: 10,
-          }}
-        >
+          }}>
           <Box>
             <Box sx={{ display: 'flex', justifyContent: 'center' }}>
               <Image
@@ -47,8 +45,7 @@ function Gravatai() {
                   target="_blank"
                   style={{
                     textDecoration: 'none',
-                  }}
-                >
+                  }}>
                   <Button
                     sx={{
                       fontSize: 15,

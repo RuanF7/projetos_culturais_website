@@ -27,7 +27,7 @@ const AboutUs = () => {
           <Box>
             <Avatar
               alt="Logo"
-              src="/carolinaTM.png"
+              src="/imagensAboutUs/carolinaTM.png"
               sx={{
                 width: 250, height: 220, paddingTop: 10,
               }}
@@ -102,7 +102,7 @@ const AboutUs = () => {
           <Box>
             <Avatar
               alt="Logo"
-              src="/helenaTM.png"
+              src="/imagensAboutUs/helenaTM.png"
               sx={{
                 width: 250, height: 220, paddingTop: 10,
               }}
