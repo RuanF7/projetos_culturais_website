@@ -115,7 +115,7 @@ function Lugares() {
                   <a href='https://www.instagram.com/p/CPbsDKspcY5/'
                     target="_blank">
                     <Image src='/imagensLugares/capelaSantaCruz.webp'
-                      alt="Imagem do livro Gravataí"
+                      alt="Imagem da Capela Santa Cruz"
                       width={474}
                       height={476} />
                   </a>
@@ -123,7 +123,7 @@ function Lugares() {
                   <a href='https://www.instagram.com/p/CPttncZL6JM/'
                     target="_blank">
                     <Image src='/imagensLugares/igrejaMatriz.webp'
-                      alt="Imagem do livro Gravataí"
+                      alt="Imagem da Igreja Matriz"
                       width={474}
                       height={476} />
                   </a>
@@ -132,7 +132,7 @@ function Lugares() {
                   <a href='https://www.instagram.com/p/CP_vG-kBkuI/'
                     target="_blank">
                     <Image src='/imagensLugares/prefeituraMunicipal.webp'
-                      alt="Imagem do livro Gravataí"
+                      alt="Imagem da Prefeitura Municipal"
                       width={474}
                       height={476} />
                   </a>
@@ -140,7 +140,7 @@ function Lugares() {
                   <a href='https://www.instagram.com/p/CQRwrD9NrEo/'
                     target="_blank">
                     <Image src='/imagensLugares/rioGravatai.webp'
-                      alt="Imagem do livro Gravataí"
+                      alt="Imagem do Rio Gravataí"
                       width={474}
                       height={476} />
                   </a>
@@ -150,7 +150,7 @@ function Lugares() {
                   <a href='https://www.instagram.com/p/CQi7SwTH8UB/'
                     target="_blank">
                     <Image src='/imagensLugares/casaraoDosFonseca.webp'
-                      alt="Imagem do livro Gravataí"
+                      alt="Imagem do Casarão dos Fonseca"
                       width={474}
                       height={476} />
                   </a>
@@ -158,7 +158,7 @@ function Lugares() {
                   <a href='https://www.instagram.com/p/CQ089Nvr_0G/'
                     target="_blank">
                     <Image src='/imagensLugares/colegioBarbosa.webp'
-                      alt="Imagem do livro Gravataí"
+                      alt="Imagem do Colégio Barbosa Rodrigues"
                       width={474}
                       height={476} />
                   </a>
@@ -168,7 +168,7 @@ function Lugares() {
                   <a href='https://www.instagram.com/p/CRG-dCUrnFy/'
                     target="_blank">
                     <Image src='/imagensLugares/fonteDoForno.webp'
-                      alt="Imagem do livro Gravataí"
+                      alt="Imagem da Fonte do Forno"
                       width={474}
                       height={476}/>
                   </a>
@@ -176,7 +176,7 @@ function Lugares() {
                   <a href='https://www.instagram.com/p/CRZAC58tsKr/'
                     target="_blank">
                     <Image src='/imagensLugares/museuAgostinhoMartha.webp'
-                      alt="Imagem do livro Gravataí"
+                      alt="Imagem do Museu Agostinho Martha"
                       width={474}
                       height={476} />
                   </a>
@@ -186,7 +186,7 @@ function Lugares() {
                   <a href='https://www.instagram.com/p/CRr4ksXtxY7/'
                     target="_blank">
                     <Image src='/imagensLugares/ctgAldeiaDosAnjos.webp'
-                      alt="Imagem do livro Gravataí"
+                      alt="Imagem do CTG Aldeia dos Anjos"
                       width={474}
                       height={476} />
                   </a>
@@ -194,7 +194,7 @@ function Lugares() {
                   <a href='https://www.instagram.com/p/CR96EX1tpe2/'
                     target="_blank">
                     <Image src='/imagensLugares/colegioDomFeliciano.webp'
-                      alt="Imagem do livro Gravataí"
+                      alt="Imagem do Colégio Dom Feliciano"
                       width={474}
                       height={476} />
                   </a>
@@ -203,7 +203,7 @@ function Lugares() {
                   <a href='https://www.instagram.com/p/CSPIODPMtsJ/'
                     target="_blank">
                     <Image src='/imagensLugares/cemiterioMunicipal.webp'
-                      alt="Imagem do livro Gravataí"
+                      alt="Imagem do Cemitério Municipal"
                       width={474}
                       height={476} />
                   </a>
@@ -211,7 +211,7 @@ function Lugares() {
                   <a href='https://www.instagram.com/p/CShJsPDNQNm/'
                     target="_blank">
                     <Image src='/imagensLugares/quiosqueDaCultura.webp'
-                      alt="Imagem do livro Gravataí"
+                      alt="Imagem do Quiosque da Cultura"
                       width={474}
                       height={476} />
                   </a>
@@ -220,7 +220,7 @@ function Lugares() {
                   <a href='https://www.instagram.com/p/CSz-xZgLa7s/'
                     target="_blank">
                     <Image src='/imagensLugares/casaraoDosBina.webp'
-                      alt="Imagem do livro Gravataí"
+                      alt="Imagem do Casarão ds Bina"
                       width={474}
                       height={476} />
                   </a>
@@ -228,7 +228,7 @@ function Lugares() {
                   <a href='https://www.instagram.com/p/CTGAWbgpxbB/'
                     target="_blank">
                     <Image src='/imagensLugares/clube6DeMaio.webp'
-                      alt="Imagem do livro Gravataí"
+                      alt="Imagem do Clube Social Seis de Maio"
                       width={474}
                       height={476} />
                   </a>
@@ -237,7 +237,7 @@ function Lugares() {
                   <a href='https://www.instagram.com/p/CTam2oSlpTL/'
                     target="_blank">
                     <Image src='/imagensLugares/bibliotecaMunicipal.webp'
-                      alt="Imagem do livro Gravataí"
+                      alt="Imagem da Biblioteca Municipal"
                       width={474}
                       height={476} />
                   </a>
@@ -245,7 +245,7 @@ function Lugares() {
                   <a href='https://www.instagram.com/p/CTqKT5ehkNE/'
                     target="_blank">
                     <Image src='/imagensLugares/cineTeatro.webp'
-                      alt="Imagem do livro Gravataí"
+                      alt="Imagem do Cine Teatro"
                       width={474}
                       height={476} />
                   </a>

@@ -115,7 +115,7 @@ function VideosEEntrevistas() {
                 <a href='https://www.youtube.com/watch?v=BamY-bPeKmE'
                   target="_blank">
                   <Image src='/imagensVideosEEntrevistas/angelaXavierVideo.webp'
-                    alt="Imagem do livro Gravataí"
+                    alt="Imagem do Video da Entrevista Angela Xavier"
                     width={700}
                     height={400} />
                 </a>
@@ -123,7 +123,7 @@ function VideosEEntrevistas() {
                 <a href='https://www.youtube.com/watch?v=RMgoEYRr2eE'
                   target="_blank">
                   <Image src='/imagensVideosEEntrevistas/matheusDiasVideo.webp'
-                    alt="Imagem do livro Gravataí"
+                    alt="Imagem do Video da Entrevista Matheus DIas"
                     width={700}
                     height={400} />
                 </a>
@@ -131,7 +131,7 @@ function VideosEEntrevistas() {
                 <a href='https://www.youtube.com/watch?v=SfYQcE_HM4Y'
                   target="_blank">
                   <Image src='/imagensVideosEEntrevistas/waldemarMaxVideo.webp'
-                    alt="Imagem do livro Gravataí"
+                    alt="Imagem do Video da Entrevista Waldemar Max"
                     width={700}
                     height={400} />
                 </a>
@@ -139,7 +139,7 @@ function VideosEEntrevistas() {
                 <a href='https://www.youtube.com/watch?v=PTBDI0_xyxc'
                   target="_blank">
                   <Image src='/imagensVideosEEntrevistas/bibliotecaMunicipalVideo.webp'
-                    alt="Imagem do livro Gravataí"
+                    alt="Imagem do Video da Entrevista Biblioteca Municipal"
                     width={700}
                     height={400} />
                 </a>
@@ -147,7 +147,7 @@ function VideosEEntrevistas() {
                 <a href='https://www.youtube.com/watch?v=TMHfE21rAvQ'
                   target="_blank">
                   <Image src='/imagensVideosEEntrevistas/quiosqueDaCulturaVideo.webp'
-                    alt="Imagem do livro Gravataí"
+                    alt="Imagem do Video da Entrevista Quiosque da Cultura"
                     width={700}
                     height={400} />
                 </a>
@@ -155,7 +155,7 @@ function VideosEEntrevistas() {
                 <a href='https://www.youtube.com/watch?v=g9FKOQmeBN8'
                   target="_blank">
                   <Image src='/imagensVideosEEntrevistas/amonDaCostaVideo.webp'
-                    alt="Imagem do livro Gravataí"
+                    alt="Imagem do Video da Entrevista Amon da Costa"
                     width={700}
                     height={400} />
                 </a>
@@ -163,7 +163,7 @@ function VideosEEntrevistas() {
                 <a href='https://www.youtube.com/watch?v=uU2PVdvPa8M'
                   target="_blank">
                   <Image src='/imagensVideosEEntrevistas/cristianeGomesVideo.webp'
-                    alt="Imagem do livro Gravataí"
+                    alt="Imagem do Video da Entrevista Cristiane Gomes"
                     width={700}
                     height={400} />
                 </a>
@@ -171,7 +171,7 @@ function VideosEEntrevistas() {
                 <a href='https://www.youtube.com/watch?v=_bDZLj1APw4'
                   target="_blank">
                   <Image src='/imagensVideosEEntrevistas/projetoCidadeHistoricaVideo.webp'
-                    alt="Imagem do livro Gravataí"
+                    alt="Imagem do Video da Entrevista Projeto Cidade Histórica"
                     width={700}
                     height={400} />
                 </a>
@@ -179,7 +179,7 @@ function VideosEEntrevistas() {
                 <a href='https://www.youtube.com/watch?v=N0-EHyYLRGI'
                   target="_blank">
                   <Image src='/imagensVideosEEntrevistas/museuAgostinhoMarthaVideo.webp'
-                    alt="Imagem do livro Gravataí"
+                    alt="Imagem do Video da Entrevista Museu Agostinho Martha"
                     width={700}
                     height={400} />
                 </a>
@@ -187,7 +187,7 @@ function VideosEEntrevistas() {
                 <a href='https://www.youtube.com/watch?v=atgnSDcJ46c'
                   target="_blank">
                   <Image src='/imagensVideosEEntrevistas/historiaDeGravataiVideo.webp'
-                    alt="Imagem do livro Gravataí"
+                    alt="Imagem do Video da Entrevista História de Gravataí"
                     width={700}
                     height={400} />
                 </a>
