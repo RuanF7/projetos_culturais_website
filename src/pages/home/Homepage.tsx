@@ -1,7 +1,7 @@
 import BackToTopButton from "@/components/backToTopButton/BackToTopButton"
 import CardLogo from "@/components/cardLogo/CardLogo"
 import { Box, Button, Typography } from "@mui/material"
-
+import styles from '../../styles/Home.module.css'
 
 
 const Homepage = () => {
@@ -14,7 +14,7 @@ const Homepage = () => {
       }}
       >
         <Box >
-          <Typography className="irmastm"
+          <Typography className={styles.irmastm}
             sx={{
               fontSize: 70,
               display: 'flex',
@@ -70,7 +70,7 @@ const Homepage = () => {
               sx={{
                 fontSize: 20,
                 backgroundColor: 'info.main',
-                color: 'warning.light',
+                color: 'secondary.main',
                 width: 250,
                 margin: 1,
                 borderRadius: 3,
