@@ -1,7 +1,8 @@
 import SpmgButtons from '@/components/spmgButtons/SpmgButtons'
-import { Box, Typography } from '@mui/material'
+import { Box, Button, Typography } from '@mui/material'
 import React from 'react'
 import Image from 'next/image'
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 
 function Spmg() {
@@ -102,13 +103,15 @@ function Spmg() {
               Lembramos que nenhum direito é adquirido, eles são conquistas. Foram conquistados por meio de lutas, do empenho e da dedicação de diversos profissionais que fazem parte dessa e de tantas outras histórias, por isso SPMG é mais do que nunca: uma história de luta.
             </Typography>
           </Box>
-          <a href='https://www.youtube.com/watch?v=atgnSDcJ46c'
-            target="_blank">
-            <Image src='/imagensSPMG/helenaVideo.webp'
-              alt="Imagem do Video Apresentação do projeto"
-              width={700}
-              height={400} />
-          </a>
+          <Box>
+            <a href='https://www.youtube.com/watch?v=atgnSDcJ46c'
+              target="_blank">
+              <Image src='/imagensSPMG/helenaVideo.webp'
+                alt="Imagem do Video Apresentação do projeto"
+                width={700}
+                height={400} />              
+            </a>
+          </Box>
         </Box>
       </Box>
     </>
