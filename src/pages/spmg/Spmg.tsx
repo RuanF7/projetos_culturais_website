@@ -2,8 +2,7 @@ import SpmgButtons from '@/components/spmgButtons/SpmgButtons'
 import { Box, Button, Typography } from '@mui/material'
 import React from 'react'
 import Image from 'next/image'
-import YouTubeIcon from '@mui/icons-material/YouTube';
-
+import styles from './Spmg.module.css'
 
 function Spmg() {
   return (
@@ -22,9 +21,9 @@ function Spmg() {
             flexDirection: 'column',
             justifyContent: 'center',
             alignItems: 'center',
-            padding: 10,
+            padding: 10,            
           }}>
-          <Box>
+          <Box sx={{backgroundColor: 'secondary.main',}}>
             <Typography
               sx={{
                 fontSize: 20,
@@ -32,8 +31,8 @@ function Spmg() {
                 fontFamily: 'Open-sans',
                 textAlign: 'left',
                 paddingTop: 10,
-                marginRight: 52,
-                color: 'info.main',
+                marginRight: 54,
+                color: 'primary.main',
                 textDecoration: 'underline',
               }}>
               Exposição Virtual
@@ -44,6 +43,7 @@ function Spmg() {
             flexDirection: 'column',
             justifyContent: 'center',
             alignItems: 'center',
+            backgroundColor: 'primary.main',
           }}>
             <Typography className="irmastm"
               sx={{
@@ -109,11 +109,91 @@ function Spmg() {
               <Image src='/imagensSPMG/helenaVideo.webp'
                 alt="Imagem do Video Apresentação do projeto"
                 width={700}
-                height={400} />              
+                height={400} />
             </a>
           </Box>
+          <Box sx={{ borderBottom: 2, borderColor: 'secondary.dark', width: 700, display: 'flex', alignSelf: 'center', marginTop: 20, }}></Box>
+          <Box sx={{ marginTop: 20 }}>
+            <Image src='/imagensSPMG/postagensSPMG.webp'
+              alt="Imagem do Video Apresentação do projeto"
+              width={400}
+              height={400}
+            />
+          </Box>
+          <Box className={styles.gridButtons}>            
+              <Button
+                sx={{
+                  fontSize: 20,
+                  backgroundColor: 'secondary.main',
+                  color: 'warning.light',
+                  width: 250,
+                  margin: 1,
+                  borderRadius: 3
+                }}
+              >Linha do tempo</Button>
+              <Button
+                sx={{
+                  fontSize: 20,
+                  backgroundColor: 'secondary.main',
+                  color: 'warning.light',
+                  width: 250,
+                  margin: 1,
+                  borderRadius: 3,
+                }}
+              >Fotos</Button>
+              <Button
+                sx={{
+                  fontSize: 20,
+                  backgroundColor: 'primary.main',
+                  color: 'warning.main',
+                  width: 250,
+                  margin: 1,
+                  borderRadius: 3,
+                }}
+              >História Impressa</Button>
+              <Button
+                sx={{
+                  fontSize: 20,
+                  backgroundColor: 'primary.main',
+                  color: 'warning.main',
+                  width: 250,
+                  margin: 1,
+                  borderRadius: 3,
+                }}
+              >Depoimentos</Button>
+              <Button
+                sx={{
+                  fontSize: 20,
+                  backgroundColor: 'info.main',
+                  color: 'warning.light',
+                  width: 250,
+                  margin: 1,
+                  borderRadius: 3,
+                }}
+              >Campanhas</Button>
+              <Button
+                sx={{
+                  fontSize: 20,
+                  backgroundColor: 'info.main',
+                  color: 'warning.light',
+                  width: 250,
+                  margin: 1,
+                  borderRadius: 3,
+                }}
+              >E a luta continua</Button>       
+            </Box>
+            <Button
+                sx={{
+                  fontSize: 20,
+                  backgroundColor: 'secondary.main',
+                  color: 'warning.light',
+                  width: 250,
+                  margin: 1,
+                  borderRadius: 3,
+                }}
+              >Publicações</Button>
+          </Box>
         </Box>
-      </Box>
     </>
   )
 }
