@@ -3,6 +3,7 @@ import { Box, Button, Typography } from '@mui/material'
 import React from 'react'
 import Image from 'next/image'
 import styles from './Spmg.module.css'
+import BackToTopButton from '@/components/backToTopButton/BackToTopButton'
 
 function Spmg() {
   return (
@@ -193,6 +194,7 @@ function Spmg() {
                 }}
               >Publicações</Button>
           </Box>
+          <BackToTopButton/>
         </Box>
     </>
   )
