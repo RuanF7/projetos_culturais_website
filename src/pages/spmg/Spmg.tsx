@@ -196,7 +196,7 @@ function Spmg() {
           </Box>
           <BackToTopButton/>
         </Box>
-    </>
+    </> 
   )
 }
 
