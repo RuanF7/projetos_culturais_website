@@ -24,14 +24,13 @@ function Spmg() {
             alignItems: 'center',
             padding: 10,            
           }}>
-          <Box sx={{backgroundColor: 'secondary.main',}}>
+          <Box sx={{display: 'flex',backgroundColor: 'secondary.main', width: 584, height: 30}}>
             <Typography
               sx={{
                 fontSize: 20,
                 display: 'flex',
                 fontFamily: 'Open-sans',
                 textAlign: 'left',
-                paddingTop: 10,
                 marginRight: 54,
                 color: 'primary.main',
                 textDecoration: 'underline',
