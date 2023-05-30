@@ -180,7 +180,7 @@ function LinhaDoTempo() {
                 2018 - Greve pela manutenção IPAG-Saúde. Conseguiram negociar com o município e aprovaram a lei do Instituto de Saúde dos Servidores de Gravataí (ISSEG).
               </Typography>
             </Box>
-            <Box sx={{ paddingTop: 15, }}>
+            <Box sx={{ paddingTop: 15, textAlign: 'center' }}>
               <a href='https://www.youtube.com/watch?v=RBfWGvB_aNU&feature=youtu.be'
                 target="_blank">
                 <Image src='/imagensSPMG/depoimentoNestor.webp'
